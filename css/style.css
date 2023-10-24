@@ -764,7 +764,7 @@ h3.my-profession {
   font-weight: 500;
 }
 
-.portfolio .portfolio-iten {
+.portfolio .portfolio-item {
   flex: 0 0 33.33%;
   max-width: 33.33%;
   margin-bottom: 30px;
@@ -904,6 +904,10 @@ h3.my-profession {
 
 /*....................Contact Us Section End Here......................*/
 
+
+
+/*....................Responsive Section Start Here......................*/
+
 @media (max-width:1199px) {
 
   .aside {
@@ -926,7 +930,7 @@ h3.my-profession {
 @media (max-width:991px) {
 
   .contact .contact-info-item,
-  .portfolio .portfolio-iten,
+  .portfolio .portfolio-item,
   .service .service-item {
     flex: 0 0 50%;
     max-width: 50%;
@@ -960,6 +964,9 @@ h3.my-profession {
     max-width: 100%;
   }
 
+  .row {
+    row-gap: 20px;
+  }
 
 }
 
