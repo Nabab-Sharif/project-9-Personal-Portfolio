@@ -77,13 +77,25 @@ ul {
   transform: scale(1.05);
 }
 
-
 .section {
   background: var(--bg-black-900);
   min-height: 100vh;
   display: block;
   opacity: 1;
   padding: 0 30px;
+  position: fixed;
+  left: 270px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.section.active {
+  z-index: 2;
+  opacity: 1;
 
 }
 
@@ -156,9 +168,9 @@ ul {
 
 /*.................Main content Section Start Here..................*/
 
-.main_content {
+/* .main_content {
   padding-left: 270px;
-}
+} */
 
 /*.................Main content Section End Here..................*/
 
